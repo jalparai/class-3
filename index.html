@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chapter 7 (Form)</h1>
+
+    <p>Admition form</p>
+<form action="./pages/home.html" method="post">
+<input type="password" placeholder="enter your password" name="password" /> <br /> 
+
+    <input type="text" placeholder="enter your first name" maxlength="10" name="username"> <br /> <br />
+    <input type="text" placeholder="enter your last name"> <br />
+    Gender:
+    <input type="radio" placeholder="enter your name" name="age" value="18" > 18 
+    <input type="radio" placeholder="enter your name" name="age" value="22" checked> 22
+    <input type="radio" placeholder="enter your name" name="age" value="99">99 <br />
+    Hobby:
+    <input type="checkbox"  name="hobby" value="Reading">Reading 
+    <input type="checkbox"  name="age" value="Writing"> Writing
+    <input type="checkbox" name="age" value="Playing">Playing<br />
+
+
+    <p>Write at least 10 lines about your education background:</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br />
+<select name="selectnum" >
+<option value="one">one</option>
+<option value="two">two</option>
+<option value="three">three</option>
+<option value="four" selected>four</option>
+</select>
+
+<p>Upload your photo</p>
+
+<input type="file" name="profilephoto" /> <br /> <br /> <br />
+
+<input type="submit" value="submit" />
+
+</form>
+    
+</body>
+</html>
